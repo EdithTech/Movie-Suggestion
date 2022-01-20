@@ -1,0 +1,56 @@
+/* using element selector here */
+title:hover{ 
+    color: peru;
+}
+
+li :first-child{  /* nth-child is pusodoselector */
+    color: rgb(210, 30, 141);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: blanchedalmond;
+    text-align: right;
+}
+
+table{
+    color: slategray;
+}
+
+
+
+/* Using I'd selector here */
+#title{
+    color: chartreuse;
+}
+
+
+#spidy{
+    color: rgb(0, 68, 255);
+}
+
+
+/* using class selector here  */
+.avengers{
+    color: rgb(247, 19, 57);
+}
+
+a:link{
+    color: rgb(55, 0, 255);
+}
+a:visited{
+    color: red;
+}
+
+.TableHeading{
+    color:sandybrown
+}
+
+
+
+
+
+
